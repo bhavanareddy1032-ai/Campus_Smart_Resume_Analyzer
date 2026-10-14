@@ -1,0 +1,18 @@
+Bhavana
+B.Tech CSM
+CGPA: 8.5
+
+Education
+B.Tech in Computer Science and Engineering
+
+Skills
+Java, OOP, MySQL, HTML, CSS, Git
+
+Projects
+Campus Smart Resume Analyzer - Java based web application for resume analysis.
+
+Internship
+Java Development Intern
+
+Activities
+Teamwork, communication and problem solving.
