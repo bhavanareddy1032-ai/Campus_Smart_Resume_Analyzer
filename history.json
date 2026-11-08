@@ -1,0 +1,14 @@
+[
+  {
+    "student": "Bhavana",
+    "role": "Java Developer",
+    "score": 67,
+    "status": "GOOD"
+  },
+  {
+    "student": "Bhavana",
+    "role": "Java Developer",
+    "score": 85,
+    "status": "PLACEMENT READY"
+  }
+]
