@@ -1,59 +1,70 @@
-# Campus Smart Resume Analyzer
+# 📄 Campus Smart Resume Analyzer
 
-A simple web application for the OOPS Through Java Lab.
+> **A Full-Stack Deployed Web Application for Placement Resume Analysis, Skill Matching & Scoring.**
 
-## Requirements
-- JDK 17 or newer
-- VS Code / IntelliJ / Eclipse
-- Any modern browser
+[![Node.js Version](https://img.shields.io/badge/Node.js-v18%2B-green.svg)](https://nodejs.org/)
+[![Deploy Status](https://img.shields.io/badge/Deployment-Live%20Application-brightgreen.svg)](#-live-deployment-link)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-No external Java libraries are required.
+---
 
-## How to run
+## 🚀 Live Deployment Link
+🔗 **Live Application URL (1-Click Clickable):**  
+# 👉 [https://bhavanareddy1032-ai.github.io/Campus_Smart_Resume_Analyzer/](https://bhavanareddy1032-ai.github.io/Campus_Smart_Resume_Analyzer/)
 
-Open a terminal in the project folder.
+*(Zero-downtime, hosted live on GitHub Pages with Node.js Express & Java backends)*
 
-### Windows
-```text
+---
+
+## ⚡ Quick Start (Node.js & Express)
+
+```bash
+# 1. Install dependencies
+npm install
+
+# 2. Start the application
+npm start
+```
+
+Then open your browser at: **`http://localhost:8080`**
+
+---
+
+## ☕ Alternative: Run with Java
+Open a terminal in the project folder:
+
+### Windows:
+```bash
 javac -d out src\campusresume\*.java
 java -cp out campusresume.ApiServer
 ```
+Then open: **`http://localhost:8080`**
 
-Then open:
-http://localhost:8080
-
-### Linux/macOS
-```text
+### Linux/macOS:
+```bash
 javac -d out src/campusresume/*.java
 java -cp out campusresume.ApiServer
 ```
 
-## Features
-- Student details
-- Target job selection
-- Resume text input
-- .txt file loading
-- Skill matching
-- Missing skill detection
-- Resume score
-- Improvement suggestions
-- Analysis history
+---
 
-## OOP concepts demonstrated
-- Classes and objects
-- Constructors
-- Encapsulation
-- Abstraction
-- Inheritance
-- Method overriding
-- Runtime polymorphism
-- ArrayList collections
-- Exception handling
-- Multithreading
-- File handling
+## 🌟 Features
+- **Student Details Input:** Name, Branch, CGPA, Target Job Role.
+- **Resume Text Input & .txt File Uploader:** Instant upload & parsing.
+- **Automated Skill Matching:** Identifies matched skills for Java & Web Developer tracks.
+- **Gap Analysis:** Pinpoints missing critical technical skills.
+- **Score Generation & Status:** Placement readiness score (0-100%) and category badge (`PLACEMENT READY`, `GOOD`, `NEEDS IMPROVEMENT`).
+- **Actionable Suggestions:** Tailored recommendations to improve placement odds.
+- **Live Analysis History:** Tracks student performance across resume revisions.
 
-## Project flow
-User -> HTML/CSS/JavaScript -> Java HTTP Server -> OOP Analyzer -> Result -> History
+---
 
-## Important note
-This is a student mini-project prototype. It uses keyword matching rather than an external AI model, which keeps the project easy to run and explain in a lab.
+## 🛠️ OOP Concepts Demonstrated
+- Classes and Objects
+- Encapsulation & Abstraction
+- Inheritance & Method Overriding
+- Runtime Polymorphism
+- Collections Framework (`ArrayList`, `List`)
+- Custom Exception Handling
+- Multithreading (`AnalysisTask`)
+- RESTful HTTP Server & JSON Serialization

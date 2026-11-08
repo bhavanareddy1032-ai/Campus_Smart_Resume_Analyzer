@@ -1,0 +1,26 @@
+{
+  "name": "campus-smart-resume-analyzer",
+  "version": "1.0.0",
+  "description": "Campus Smart Resume Analyzer - Node.js Express & Java Placement Prep Web Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "resume-analyzer",
+    "nodejs",
+    "express",
+    "placement-prep",
+    "campus-project"
+  ],
+  "author": "Bhavana Reddy",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
